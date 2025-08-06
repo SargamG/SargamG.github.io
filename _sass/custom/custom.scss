@@ -1,14 +1,16 @@
 // Make author profile always bright
-.sidebar .author__avatar,
+.sidebar .author__avatar img,
 .sidebar .author__name,
 .sidebar .author__bio {
   opacity: 1 !important;
+  filter: none !important;
   transition: none !important;
 }
 
-// Disable hover fade-in effect
-.sidebar:hover .author__avatar,
+// Prevent hover from reapplying dull effect
+.sidebar:hover .author__avatar img,
 .sidebar:hover .author__name,
 .sidebar:hover .author__bio {
   opacity: 1 !important;
+  filter: none !important;
 }
