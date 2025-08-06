@@ -1,0 +1,13 @@
+/* Make sidebar 33% width and content 66% */
+@media (min-width: 768px) {
+  .sidebar {
+    width: 33%;
+  }
+
+  .page {
+    margin-left: 33%;
+    margin-right: 0; /* remove right margin */
+    max-width: none;
+    width: 67%;
+  }
+}
